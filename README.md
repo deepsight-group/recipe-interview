@@ -23,3 +23,28 @@ Exemple d'utilisation. Pour rechercher une recette qui comprend les ingrédients
 et qui correspond à une recette `omelet`, la requete est :
 
 http://localhost:8888/api?i=onions,garlic&q=omelet&p=1
+
+## Installation
+
+```bash
+$ ROOT=$(pwd)
+$ git clone https://github.com/deepsight-group/recipe-interview.git
+$ (cd $ROOT/recipe-interview/recipe-app && npm install)
+$ (cd $ROOT/recipe-interview/recipe-server && npm install)
+```
+
+## Run
+
+Lancer deux sessions Bash :
+
+Pour l'app, dans `recipe-interview/recipe-app` :
+
+```bash
+$ npm start
+```
+
+Pour l'api, dans `recipe-interview/recipe-server` :
+
+```bash
+$ npm start
+```
