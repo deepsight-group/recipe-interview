@@ -12,7 +12,10 @@ Le tableau comprend 3 colonnes: `Title`, `Picture`, `Ingredients`.
 
 En dessous de ce tableau, on affichera les 5 ingrédients qui apparaissent le plus dans les résultats et le nombre d'apparition.
 
+Lorsque l'utilisateur clique sur une ligne, un nouvel onglet s'ouvre avec la page de la recette (celle qui apparait dans `href`).
+
 On utilisera l'api http://www.recipepuppy.com/api
+
 Pour éviter les problèmes CORS, on passera par le serveur local qui tourne sur `localhost:8888`
 
 Exemple d'utilisation. Pour rechercher une recette qui comprend les ingrédients :
