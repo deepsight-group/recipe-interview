@@ -57,3 +57,17 @@ $ (cd $(pwd)/recipe-interview/recipe-server && npm start)
 
 - `npm` version >= 6.14.6
 - `node` version >= 12.18.3
+
+## Rendu
+
+A la fin des 1h30 :
+
+- Supprimer les `node_modules` :
+
+```bash
+$ (rm -rf $(pwd)/recipe-interview/recipe-app/node_modules)
+$ (rm -rf $(pwd)/recipe-interview/recipe-server/node_modules)
+```
+
+- Zipper le dossier `recipe-interview`
+- L'envoyer via Zoom
