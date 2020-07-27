@@ -39,7 +39,7 @@ $ (cd $(pwd)/recipe-interview/recipe-server && npm install)
 
 ## Run
 
-Lancer deux sessions Bash :
+Lancer deux sessions Bash dans le dossier parent de `recipe-interview`, puis :
 
 Pour l'app :
 
