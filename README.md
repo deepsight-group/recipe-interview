@@ -17,9 +17,9 @@ Pour éviter les problèmes CORS, on passera par le serveur local qui tourne sur
 
 Exemple d'utilisation. Pour rechercher une recette qui comprend les ingrédients :
 
-- onions
-- garlic
+- `onions`
+- `garlic`
 
-et qui correspond à une recette d'omelet, la requete est :
+et qui correspond à une recette `omelet`, la requete est :
 
 http://localhost:8888/api?i=onions,garlic&q=omelet&p=1
