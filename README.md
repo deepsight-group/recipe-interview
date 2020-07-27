@@ -29,12 +29,10 @@ http://localhost:8888/api?i=onions,garlic&q=omelet&p=1
 
 ## Installation
 
-Se mettre dans le dossier où l'on veut installer le projet puis :
-
 ```bash
-$ git clone https://github.com/deepsight-group/recipe-interview.git
-$ (cd $(pwd)/recipe-interview/recipe-app && npm install)
-$ (cd $(pwd)/recipe-interview/recipe-server && npm install)
+$ git clone https://github.com/deepsight-group/recipe-interview.git ~/recipe-interview
+$ (cd ~/recipe-interview/recipe-app && npm install)
+$ (cd ~/recipe-interview/recipe-server && npm install)
 ```
 
 ## Run
@@ -44,13 +42,13 @@ Lancer deux sessions Bash dans le dossier parent de `recipe-interview`, puis :
 Pour l'app :
 
 ```bash
-$ (cd $(pwd)/recipe-interview/recipe-app && npm start)
+$ (cd ~/recipe-interview/recipe-app && npm start)
 ```
 
 Pour l'api :
 
 ```bash
-$ (cd $(pwd)/recipe-interview/recipe-server && npm start)
+$ (cd ~/recipe-interview/recipe-server && npm start)
 ```
 
 ## Requirements
@@ -65,8 +63,8 @@ A la fin des 1h30 :
 - Supprimer les `node_modules` :
 
 ```bash
-$ (rm -rf $(pwd)/recipe-interview/recipe-app/node_modules)
-$ (rm -rf $(pwd)/recipe-interview/recipe-server/node_modules)
+$ (rm -rf ~/recipe-interview/recipe-app/node_modules)
+$ (rm -rf ~/recipe-interview/recipe-server/node_modules)
 ```
 
 - Zipper le dossier `recipe-interview`
