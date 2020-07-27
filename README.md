@@ -29,27 +29,28 @@ http://localhost:8888/api?i=onions,garlic&q=omelet&p=1
 
 ## Installation
 
+Se mettre dans le dossier où l'on veut installer le projet puis :
+
 ```bash
-$ ROOT=$(pwd)
 $ git clone https://github.com/deepsight-group/recipe-interview.git
-$ (cd $ROOT/recipe-interview/recipe-app && npm install)
-$ (cd $ROOT/recipe-interview/recipe-server && npm install)
+$ (cd $(pwd)/recipe-interview/recipe-app && npm install)
+$ (cd $(pwd)/recipe-interview/recipe-server && npm install)
 ```
 
 ## Run
 
 Lancer deux sessions Bash :
 
-Pour l'app, dans `recipe-interview/recipe-app` :
+Pour l'app :
 
 ```bash
-$ npm start
+$ (cd $(pwd)/recipe-interview/recipe-app && npm start)
 ```
 
-Pour l'api, dans `recipe-interview/recipe-server` :
+Pour l'api :
 
 ```bash
-$ npm start
+$ (cd $(pwd)/recipe-interview/recipe-server && npm start)
 ```
 
 ## Requirements
